@@ -13,6 +13,8 @@ jobs:
       language: java
       jdk: openjdk8
       install: skip
+      before_script:
+        - chmod +x gradlew
       script: ./gradlew clean build
       before_deploy:
         - git config --local user.name "Travis CI"
@@ -25,6 +27,8 @@ jobs:
         skip_cleanup: true
     - stage: deploy to cf
       language: bash
+      before_script:
+        - chmod +x gradlew
       script:
         - echo "Downloading $RELEASE_TAG"
         - wget -P build/libs https://github.com/$GITHUB_USERNAME/fleet-management/releases/download/$RELEASE_TAG/trucker-api-1.0.0.war

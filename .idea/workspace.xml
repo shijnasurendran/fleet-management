@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d37bc3-9098-4b6a-a5cc-efdd93dd6769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/controller/AlertsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/controller/ReadingsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/controller/VehicleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/entity/Alerts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/entity/Readings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/entity/Tires.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/entity/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/exception/BadRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/exception/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/repository/AlertsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/repository/ReadingRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/repository/VehicleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/service/AlertsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/service/AlertsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/service/ReadingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/service/ReadingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/service/VehicleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/trucker/service/VehicleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,16 +40,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="408">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -126,9 +98,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/travis.yml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/manifest.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -561,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -579,6 +544,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>

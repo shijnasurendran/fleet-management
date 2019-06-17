@@ -9,5 +9,8 @@
         <module name="trucker-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="trucker-api" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
